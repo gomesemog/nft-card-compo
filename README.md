@@ -1,0 +1,2 @@
+# nft-card-compo
+Here I tried to have some experimentation and actually i kinda liked the result. I know ends not being the solution per see, but apart from the "neon" detail i tried to foollow the solution as much as possible. Was an interesting discover. Anyways, the coding is kinda long and i cheated a bit including transformations at HTML inner styling. Looking forward to clean them better as time passes :D
