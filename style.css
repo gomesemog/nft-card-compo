@@ -2,7 +2,6 @@
 
 
 body {
-    width: 1440px;
     background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
 }
@@ -144,7 +143,7 @@ footer {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-image: linear-gradient(180deg, hsl(216, 100%, 78%), rgb(0, 255, 130), rgb(255, 0, 140), rgb(255, 102, 179));
+    background-image: linear-gradient(0deg, hsl(194, 100%, 78%), rgb(0, 255, 200), rgb(255, 0, 55), rgb(255, 143, 102));
     z-index: -1;
     filter: blur(5px);
 }
