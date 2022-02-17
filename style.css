@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Roboto+Serif:ital,wght@1,100&display=swap');
+
+
+body {
+    width: 1440px;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.eq-main {
+    position: relative;
+    width: 230px;
+    border-radius: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.view {
+    margin: 90px;
+}
+
+.eq_view {
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: 15px;
+    height: 230px;
+    width: 230px;
+    border-radius: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-color: transparent;
+}
+
+.eq_view:hover {
+    background-color: rgba(0, 255, 208, 0.624);
+    display: block;
+    position: absolute;
+    top: 15px;
+    height: 230px;
+    width: 230px;
+    border-radius: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    opacity: 100;
+    cursor: pointer;
+}
+
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 25px 50px 40px rgba(0, 0, 0, 0.2)
+}
+
+.card {
+    
+    width: 230px;
+    background-color: hsl(216, 50%, 16%);
+    font-size: 18px;
+    border-radius: 10px;
+    gap: 1px;
+    padding: 15px;
+}
+
+.name {
+    color: white;
+    font-weight: 600;
+    margin-top: 14px;
+}
+
+.desc {
+    color: hsl(215, 51%, 70%);
+    font-size: .85rem;
+    font-weight: 300;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+.ammount {
+    color: hsl(178, 100%, 50%);
+    font-weight: 500;
+    font-size: .7rem;
+}
+
+.time {
+    font-size: .7rem;
+    color: hsl(215, 51%, 70%);
+    text-align: end;
+}
+
+.data {
+    width: 222px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 23px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 10.5px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    vertical-align: middle;
+    text-align: center;
+    width: 155px;
+}
+
+.avatar {
+    width: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.attribution {
+    font-family: 'Roboto Serif', sans-serif;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+}
+
+.attribution a {
+    font-size: 12px;
+    color: hsl(215, 51%, 70%);
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card-2 {
+    width: 230px;
+    height: 428px;
+    font-size: 18px;
+    border-radius: 10px;
+    gap: 1px;
+    padding: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(180deg, hsl(216, 100%, 78%), rgb(0, 255, 130), rgb(255, 0, 140), rgb(255, 102, 179));
+    z-index: -1;
+    filter: blur(5px);
+}
